@@ -43,6 +43,11 @@
           </li>
           <li>содержит атрибут rel со значением stylesheet.</li>
         </ul>
+
+        <div>
+          <h3>Ответ</h3>
+          <p>link rel="stylesheet" href="./CSS/style.css"</p>
+        </div>
       </div>
 
       <button class="accordion">task 2</button>
@@ -63,10 +68,11 @@
           <span class="red">red</span>, свойство <b>font-size</b> и значение
           <b>20px</b>;
         </p>
-        <p>
-          &lt;p&gt;В браузере по умолчанию цвет текста черный&lt;/p&gt; <br />
-          &lt;p&gt;В браузере по умолчанию размер шрифта 16px&lt;/p&gt; <br />
-        </p>
+
+        &lt;p&gt;В браузере по умолчанию цвет текста черный&lt;/p&gt; <br />
+        &lt;p&gt;В браузере по умолчанию размер шрифта 16px&lt;/p&gt; <br />
+        <h3>Ответ</h3>
+        <p>*p { color: red; font-size: 20px; }</p>
       </div>
 
       <button class="accordion">task 3</button>
@@ -100,6 +106,8 @@
           <br />
           &lt;/ul&gt;
         </p>
+        <h3>Ответ</h3>
+        <p>* { margin: 0; padding: 0; }</p>
       </div>
 
       <button class="accordion">task 4</button>
@@ -137,6 +145,8 @@
           умолчанию&lt;/li&gt;<br />
           &lt;/ul&gt;
         </p>
+        <h3>Ответ</h3>
+        <p>* li { list-style: none; color: green; }</p>
       </div>
 
       <button class="accordion">task 5</button>
@@ -165,6 +175,8 @@
           всегда возможно.&lt;/li&gt;<br />
           &lt;/ol&gt;
         </p>
+        <h3>Ответ</h3>
+        <p>.rule { list-style: upper-roman; color: navy; }</p>
       </div>
 
       <button class="accordion">task 6</button>
@@ -220,6 +232,11 @@
           это один класс. Но это не всегда возможно.&lt;/li&gt; <br />
           &lt;/ol&gt;
         </p>
+        <h3>Ответ</h3>
+        <p>
+          .common-rule.first-rule { color: red; } .common-rule.last-rule {
+          color: green; }
+        </p>
       </div>
 
       <button class="accordion">task 7</button>
@@ -260,6 +277,8 @@
         class=&quot;link&quot; href=&quot;#&quot;&gt;Ссылка 1&lt;/a&gt;<br />
         &lt;a class=&quot;link active&quot; href=&quot;#&quot;&gt;Ссылка
         2&lt;/a&gt;
+        <h3>Ответ</h3>
+        <p>.btn.active { color: red; } .link.active { font-weight: 700; }</p>
       </div>
 
       <button class="accordion">task 8</button>
@@ -292,6 +311,8 @@
         &lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;Ссылка 1&lt;/a&gt;
         <br />
         &lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;Ссылка 2&lt;/a&gt;
+        <h3>Ответ</h3>
+        <p>.link:hover .link:focus { opacity: 1; }</p>
       </div>
 
       <button class="accordion">task 9</button>
@@ -358,6 +379,8 @@
         type=&quot;submit&quot;&gt;отправить&lt;/button&gt; <br />
         &lt;a class=&quot;btn&quot;
         href=&quot;./help.html&quot;&gt;помощь&lt;/a&gt;
+        <h3>Ответ</h3>
+        <p>[type] { color: white; } * button[type="reset"] { color: green; }</p>
       </div>
 
       <button class="accordion">task 10</button>
@@ -428,6 +451,8 @@
         + CSS&lt;/a&gt;<br />
         &lt;/li&gt;<br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p>* [href^="."] { color: red; } * [href^="h"] { color: navy; }</p>
       </div>
 
       <button class="accordion">task 11</button>
@@ -500,6 +525,8 @@
         + CSS&lt;/a&gt;<br />
         &lt;/li&gt;<br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 12</button>
@@ -565,6 +592,8 @@
         href=&quot;https://stackoverflow.com/questions/tagged/css&quot;&gt;StackOverflow
         + CSS&lt;/a&gt; <br />&lt;/li&gt;<br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 13</button>
@@ -593,6 +622,8 @@
         большинстве случаев является плохой практикой. Потому что приводят к
         дублированию кода и, как следствие, к излишней сложности
         кода.&lt;/div&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 14</button>
@@ -629,6 +660,8 @@
         приоритета чем у id, а также из-за сложности c поддержкой и повторным
         использованием кода. <br />
         &lt;/div&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 15</button>
@@ -681,6 +714,8 @@
         <br />Использование !important крайне нежелательно. Этот способ повысить
         приоритет до неизменяемого применяют обычно только для оформления
         предупреждений или сообщений об ошибках приложения. <br />&lt;/div&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 16</button>
@@ -734,6 +769,8 @@
         <br />
         &lt;/li&gt; <br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 17</button>
@@ -838,6 +875,8 @@
         3&lt;/a&gt;<br />
         &lt;/li&gt;<br />
         &lt;/ul&gt; <br />
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 18</button>
@@ -883,6 +922,8 @@
         &lt;li class=&quot;item item-3&quot;&gt;3-й сосед&lt;/li&gt;
         <br />&lt;li class=&quot;item item-4&quot;&gt;4-й сосед&lt;/li&gt;<br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 19</button>
@@ -928,6 +969,8 @@
         &lt;li class=&quot;item item-3&quot;&gt;3-й сосед&lt;/li&gt; <br />
         &lt;li class=&quot;item item-4&quot;&gt;4-й сосед&lt;/li&gt; <br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 20</button>
@@ -949,6 +992,8 @@
         title=&quot;2&quot;&gt;2&lt;/h4&gt; <br />
         &lt;h4 class=&quot;title headline&quot;
         title=&quot;3&quot;&gt;3&lt;/h4&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 21</button>
@@ -994,6 +1039,8 @@
         &lt;/p&gt; <br />
         &lt;/li&gt; <br />
         &lt;/ul&gt; <br />
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 22</button>
@@ -1017,6 +1064,8 @@
         &lt;li class=&quot;list-item&quot;&gt;По умолчанию у списка
         `padding-left` равен `40px`&lt;/li&gt; <br />
         &lt;/ul&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 23</button>
@@ -1048,6 +1097,8 @@
         &lt;/head&gt;<br />
         &lt;body&gt; <br />
         &lt;/body&gt; <br />&lt;/html&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 24</button>
@@ -1104,6 +1155,8 @@
         фоне.&lt;/div&gt; <br />
         &lt;div class=&quot;box blue&quot;&gt;Белый текст на синем
         фоне.&lt;/div&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 25</button>
@@ -1140,6 +1193,8 @@
         фоне.&lt;/div&gt; <br />
         &lt;div class=&quot;box blue&quot;&gt;Белый текст на синем
         фоне.&lt;/div&gt; <br />
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 26</button>
@@ -1175,6 +1230,8 @@
         &lt;div class=&quot;lightness lightness-25&quot;&gt;25%&lt;/div&gt;
         <br />
         &lt;div class=&quot;lightness lightness-0&quot;&gt;0&lt;/div&gt; <br />
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 27</button>
@@ -1214,6 +1271,8 @@
         &lt;div class=&quot;box transparent&quot;&gt;Transparent&lt;/div&gt;
         <br />
         &lt;/div&gt;
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <button class="accordion">task 28</button>
@@ -1267,6 +1326,8 @@
         &lt;button data-color=&quot;rgba&quot;&gt;rgba&lt;/button&gt; <br />
         &lt;button data-color=&quot;hsla&quot;&gt;hsla&lt;/button&gt; <br />
         &lt;button data-color=&quot;hexa&quot;&gt;hexa&lt;/button&gt; <br />
+        <h3>Ответ</h3>
+        <p></p>
       </div>
 
       <script src="./js/script.js"></script>
